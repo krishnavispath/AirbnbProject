@@ -1,0 +1,26 @@
+AirbnbProj:
+  outputs:
+    dev:
+      account: PSMZQQL-TJ45721
+      database: AIRBNB
+      password: Training123456
+      role: ACCOUNTADMIN
+      schema: DBT_AIRBNB
+      threads: 1
+      type: snowflake
+      user: feblearning
+      warehouse: MY_LARGEWH
+  target: dev
+AirbnbProject:
+  outputs:
+    dev:
+      account: QHBNPTY-HW85053
+      database: AIRBNB_DEMO
+      password: Training123456
+      role: ACCOUNTADMIN
+      schema: dbtairbnb_tgt
+      threads: 1
+      type: snowflake
+      user: march2026learning
+      warehouse: LARGE_WH
+  target: dev
